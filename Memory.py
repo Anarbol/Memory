@@ -69,6 +69,7 @@ def draw():
         color('black')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
+    #Muestra el número de taps dados y al finalizar un mensaje de victoria.
     update()
     up()
     goto(-340,190)
@@ -84,7 +85,7 @@ def draw():
 
 
 shuffle(tiles)
-setup(420, 420, 370, 0)
+setup(700, 420, 370, 0)
 addshape(car)
 hideturtle()
 tracer(False)
